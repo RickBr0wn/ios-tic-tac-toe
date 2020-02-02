@@ -15,13 +15,17 @@ import {
   Text,
   StatusBar,
 } from 'react-native'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 function App(params) {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <Text>App</Text>
+        <Text>
+          App
+          <Icon name="rocket" size={30} color="#900" />
+        </Text>
       </SafeAreaView>
     </>
   )
